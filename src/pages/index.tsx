@@ -266,18 +266,26 @@ const Home = () => {
           <span className="font-medium dark:text-zinc-200 text-zinc-600">
             {t("socials.github-title")}
           </span>
-          <span className="cursor-pointer dark:text-teal-400 text-teal-500 underline">
-            https://www.linkedin.com/in/soli-ghanbary/
-          </span>
+          <a
+            href="https://github.com/soheilghanbary"
+            rel="nofollow sponsored"
+            className="cursor-pointer dark:text-teal-400 text-teal-500 underline"
+          >
+            https://github.com/soheilghanbary
+          </a>
         </li>
         <li className="flex items-center gap-4 xl:text-base lg:text-base text-sm">
           <img src="/icons/linkedin.svg" className="w-6 h-6" />
           <span className="font-medium dark:text-zinc-200 text-zinc-600">
             {t("socials.linkedin-title")}
           </span>
-          <span className="cursor-pointer dark:text-teal-400 text-teal-500 underline">
-            https://www.linkedin.com/in/soli-ghanbary/
-          </span>
+          <a
+            href="https://www.linkedin.com/in/soli-ghanbary"
+            rel="nofollow sponsored"
+            className="cursor-pointer dark:text-teal-400 text-teal-500 underline"
+          >
+            https://www.linkedin.com/in/soli-ghanbary
+          </a>
         </li>
         <li className="flex items-center gap-4 xl:text-base lg:text-base text-sm">
           <img src="/icons/twitter.svg" className="w-6 h-6" />
@@ -285,11 +293,11 @@ const Home = () => {
             {t("socials.twitter-title")}
           </span>
           <a
-            href="https://www.linkedin.com/in/soli-ghanbary/"
+            href="https://twitter.com/soli_ghanbary"
             rel="nofollow sponsored"
             className="cursor-pointer dark:text-teal-400 text-teal-500 underline"
           >
-            https://www.linkedin.com/in/soli-ghanbary/
+            https://twitter.com/soli_ghanbary
           </a>
         </li>
         <li className="flex items-center gap-4 xl:text-base lg:text-base text-sm">
@@ -298,11 +306,11 @@ const Home = () => {
             {t("socials.instagram-title")}
           </span>
           <a
-            href="https://www.linkedin.com/in/soli-ghanbary/"
+            href="https://www.instagram.com/soheil__ghanbary/"
             rel="nofollow sponsored"
             className="cursor-pointer dark:text-teal-400 text-teal-500 underline"
           >
-            https://www.linkedin.com/in/soli-ghanbary/
+            https://www.instagram.com/soheil__ghanbary
           </a>
         </li>
       </ul>
