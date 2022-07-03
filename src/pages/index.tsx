@@ -178,7 +178,7 @@ const Home = () => {
           </ul>
         </div>
         <div className="p-2 border-2 border-violet-400 animate__animated animate__fadeIn">
-          <img src="/profile.jpeg" className="w-64 object-cover" />
+          <img src="/profile-3.jpeg" className="w-64 object-cover" />
         </div>
       </div>
       <hr className="border-zinc-600 my-10" />
